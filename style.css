@@ -325,13 +325,16 @@ input {
     background-color: #051B28;
     color: white;
     text-align: center;
-    width: 296px;
+    width: 80%;
     padding: 20px;
 }
 .darkMode a{
     background-color: transparent;
     filter: invert(100%);
     width: 100%;
+}
+.darkMode{
+    padding: 0;
 }
 #rescolor{
     width: 80%;
