@@ -1,9 +1,6 @@
-window.onload = console.log(document.cookie);
 let resColor = document.getElementById('rescolor')
-let cookies = document.cookie
 
-
-if(cookies.length == 41){
+if(sessionStorage.getItem('1') == "win"){
     resColor.innerHTML = "Bravo vous avez une chance de gagner !"
     resColor.style.backgroundColor = "green"
 }else{
