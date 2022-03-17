@@ -333,3 +333,13 @@ input {
     filter: invert(100%);
     width: 100%;
 }
+#rescolor{
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+#CGU{
+    width: 80%;
+    text-align: center;
+}
