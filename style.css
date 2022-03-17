@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  --------- IMPORT -------- */
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #0373B2;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 215px;
+    font-size: 18px;
+    font-weight: 600;
+}
+button{
+    text-decoration: none;
+    color: white;
+    background-color: #0373B2;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 215px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+}
+p{
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 15px;
+}
+.black{
+    color: black !important;
+}
+/*  --------- GENERAL -------- */
+
+/* ------ HOME PAGE ------ */
+/* ------ SECTION 1 ------ */
+.logo{
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+    margin-top: 70px;
+}
+#first{
+    position: relative;
+}
+#first::after{
+    background-color:#0B354D;
+    content: '';
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.boxIntro{
+    text-align: center;
+    background-color: #051B28;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    padding: 10px 0 20px 0;
+    margin-top: 50px;
+}
+.boxIntro p {
+    width: 209px;
+}
+
+/* ------ SECTION 2 ------ */
+
+#second{
+    background-color:#0B354D;
+}
+.Question{
+    color: white;
+    margin: 0 34px;
+}
+
+/* ------ FOOTER ------ */
+
+.footerr{
+    background-color: black;
+    color: white;
+}
+.top, .bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a{
+    padding: 0;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 15px;
+    background-color: transparent;
+    text-transform: none;
+}
+.footer a,.footer p{
+    font-weight: 500;
+}
+.bottom{
+    padding: 5px 35px;
+}
+.bottom img{
+    width: 32px;
+    height: 32px;
+}
+
+/* ------ QUIZZ PAGE ------ */
+/* ------ HEADER ------ */
+.header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 10;
+}
+.header a{
+    background-color: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+.header p{
+    font-size: 17px;
+    background-color: #051B28;
+    color: white;
+    width: 180px;
+    padding: 8px;
+}
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+    align-items: center;
+}
+.headerBottom{
+    margin: auto;
+}
+.line{
+    border: 1px solid #D9D9D9;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+/* ------ QUESTIONS ------ */
+.questions{
+    margin-top: 146px;
+    display: flex;
+    flex-direction: column;
+}
+.quesiton{
+    margin-top: 24px;
+}
+.title,.answer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+    align-items: center;
+}
+.title p{
+    background-color: #0B354D;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    width: 57px;
+}
+label{
+    width: 276px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.answers{
+    margin: 0 15px;
+}
+.answer p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    position: relative;
+  }
+  
+  input:checked {
+    border: 16px solid #0373B2;
+  }
+#centrer{
+    text-align: center;
+}
+#oui{
+    padding: 0;
+    background-color: red;
+}
+/* ------- VALIDATION PAGE ------ */
+/* ------- contactForm ------ */
+
+.contactForm{
+    margin-top: 146px;
+    text-align: center;
+}
+.contactForm h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+#obligation{
+    color: #B75555;
+}
+
+#validation{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 150px;
+    text-align: center;
+}
+
+.theForm {
+    margin: 12px;
+  }
+.form-element{
+    display: flex;
+    flex-direction: column;
+}
+.top-part{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.top-part from input{
+    width: 90%;
+}
+.theForm input {
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 8px;
+    margin-bottom: 15px;
+    outline: solid 1px #C0C0C0;
+    width: 90%;
+}
+#object, #message, #email{
+    width: 95%;
+}
+.form-element input{
+    border-radius: 0;   
+}
+.form-element label{
+    width: fit-content;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 7px 0;
+}
+/* ------ RESULTS ------- */
+
+.Vali{
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+#valida{
+    background-color: #72E26F;
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.Vali p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+#darkBox{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #051B28;
+    color: white;
+    text-align: center;
+    width: 296px;
+    padding: 20px;
+}
+.darkMode a{
+    background-color: transparent;
+    filter: invert(100%);
+    width: 100%;
+}

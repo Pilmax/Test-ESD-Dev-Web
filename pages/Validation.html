@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Assets/logoSeul.svg">
+    <title>CES 2023 - Validation</title>
+</head>
+<body>
+    <section class="header">
+        <div class="headerTop">
+            <a href="../index.html"><img src="../Assets/logoSeul.svg" alt="Logo"></a>
+            <p id="validation">Validation</p>
+        </div>
+        <div class="headerBottom">
+            <img src="../Assets/1 sur 3.svg" alt="Avancée">
+        </div>
+        <div class="line"></div>
+    </section>
+    
+    <div class="contactForm">
+        <p>Merci pour votre participation !</p>
+        <p>Veuillez remplir ce formulaire afin d’être recontacté si vous remportez le gros lot !</p>
+        <h1>Formulaire</h1>
+        <p id="obligation">* Obligatoire</p>
+
+        <div class="theForm">
+            <form action="mail.php" method="POST">
+                <div class="top-part">
+                    <div class="form-element">
+                        <label for="firstname">Nom</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Steve" required>    
+                    </div>
+
+                    <div class="form-element">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Jobs" required>    
+                    </div>
+
+                </div>
+
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="steve.jobs@gmail.com" required>    
+                </div>
+
+                <div class="form-element">
+                    <label for="object">Viendrez-vous à l’évenement ? *</label>
+                    <input type="text" id="object" name="object" placeholder="Réponse" required>    
+                </div>
+                <div class="form-element">
+                    <label for="message">Si oui allez-vous être accompagné ?</label>
+                    <input type="text" id="message" name="message" placeholder="Réponse">   
+                </div>
+                <button type="submit" onclick="window.location.href = './Results.html'">Envoyer</button>
+            </form>
+        </div>
+
+    </div>
+    
+    <section class="footerr">
+        <div class="footer">
+            <div class="top">
+                <p>© CTA 2022</p>
+                <a href="">conditions générales</a>
+            </div>
+            <div class="bottom">
+                <a href="https://twitter.com/CTATech" target="_blank"><img src="../Assets/twitter-logo.svg" alt="Logo twitter"></a>
+                <a href="https://www.facebook.com/ConsumerTechnologyAssociation/" target="_blank"><img src="../Assets/linkedin-logo.svg" alt="Logo linkedin"></a>
+                <a href="https://www.linkedin.com/company/consumer-technology-association" target="_blank"><img src="../Assets/instagram-logo.svg" alt="Logo instagram"></a>
+                <a href="https://www.instagram.com/cta/" target="_blank"><img src="../Assets/facebook-logo.svg" alt="Logo facebook"></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
