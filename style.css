@@ -194,7 +194,7 @@ p{
     width: 57px;
 }
 label{
-    width: 276px;
+    /* width: 276px; */
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
