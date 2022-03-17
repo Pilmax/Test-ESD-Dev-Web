@@ -176,6 +176,9 @@ p{
 .quesiton{
     margin-top: 24px;
 }
+.title{
+    gap: 10px;
+}
 .title,.answer{
     display: flex;
     justify-content: space-between;
@@ -232,7 +235,7 @@ input {
 /* ------- contactForm ------ */
 
 .contactForm{
-    margin-top: 146px;
+    margin-top: 190px;
     text-align: center;
 }
 .contactForm h1{
